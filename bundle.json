@@ -1,0 +1,35 @@
+{
+    "name": "@ohos/sonic",
+    "description": "Sonic is a simple algorithm for speeding up or slowing down speech, which is used by multimedia audio subsystems for change speed playback.",
+    "version": "0.2.0",
+    "license": "apache.2.0",
+    "publishAs": "code-segment",
+    "segment": {
+        "destPath": "third_party/sonic"
+    },
+    "dirs": {},
+    "scripts": {},
+    "readmePath": {
+        "en": "README"
+    },
+    "component": {
+        "name": "sonic",
+        "subsystem": "thirdparty",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [
+            "standard"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
