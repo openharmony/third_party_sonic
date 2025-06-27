@@ -10,16 +10,24 @@ third_party_sonic/
 ├── debian/
 ├── doc/
 ├── samples/
+├── BUILD.gn
+├── bundle.json
 ├── COPYING
+├── LICENSE
+├── Main.java
+├── main.c
 ├── Main.java
 ├── Makefile
-├── README
-├── Sonic.java
-├── main.c
 ├── mkorig
+├── OAT.xml
+├── README
+├── README_en.md
+├── README_ch.md
+├── README.OpenSource
 ├── sonic.1
 ├── sonic.c
 ├── sonic.h
+├── Sonic.java
 ├── wave.c
 └── wave.h
 
