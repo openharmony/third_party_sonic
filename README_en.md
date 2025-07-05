@@ -5,6 +5,7 @@
 Sonic is an algorithm for audio speed change, enabling basic audio processing such as changing speed without altering pitch, changing pitch without altering speed, and simultaneously changing speed and pitch. It is particularly optimized for speed changes of more than 2x. Sonic includes implementations in both C and Java, with main.c and main.java serving as simple usage examples for each.
 
 ## Directory Structure
+![image](./architecture_diagram_en.png)
 
 In the OpenHarmony system, sonic inheritance is implemented within the audio service. Through the service, applications can call relevant interfaces to achieve audio speed change playback, The related interfaces are setSpeed and getSpeed. For detailed instructions, please refer to the link: https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/reference/apis-audio-kit/js-apis-audio.md
 
