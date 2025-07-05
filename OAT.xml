@@ -74,8 +74,8 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filename" name="main.c" desc="sonic main c file"/>
                 <filteritem type="filename" name="wave.h" desc="sonic wave header file"/>
                 <filteritem type="filename" name="wave.c" desc="sonic wave source file"/>
-                <filteritem type="binary" name="architecture_diagram_en.png" desc="sarchitecture diagram"/>
-                <filteritem type="binary" name="architecture_diagram_zh.png" desc="architecture diagram"/>
+                <filteritem type="filename" name="architecture_diagram_en.png" desc="architecture diagram"/>
+                <filteritem type="filename" name="architecture_diagram_zh.png" desc="architecture diagram"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>
