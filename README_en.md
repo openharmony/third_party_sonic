@@ -20,8 +20,8 @@ third_party_sonic/
 ├── Sonic.java          # Java audio speed change source code
 ├── wave.c              # C audio speed change source code
 ├── wave.h              # C audio speed change source code
-├── BUILD.gn            # HarmonyOS build script
-├── bundle.json         # HarmonyOS build script
+├── BUILD.gn            # build script
+├── bundle.json         # build script
 ├── Makefile            # Compilation script
 ├── README_zh.md        # Installation and usage instructions
 ├── README_en.md        # Installation and usage instructions

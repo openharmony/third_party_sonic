@@ -23,8 +23,8 @@ third_party_sonic/
 ├── Sonic.java          # JAVA音频变速源码
 ├── wave.c              # C音频变速源码
 ├── wave.h              # C音频变速源码
-├── BUILD.gn            # 鸿蒙系统构建脚本
-├── bundle.json         # 鸿蒙系统构建脚本
+├── BUILD.gn            # 构建脚本
+├── bundle.json         # 构建脚本
 ├── Makefile            # 编译脚本
 ├── README_zh.md        # 安装使用方法
 ├── README_en.md        # 安装使用方法
