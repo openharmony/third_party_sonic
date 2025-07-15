@@ -32,6 +32,8 @@ config("sonic_config") {
 ohos_shared_library("sonic") {
   sources = [ "./sonic.c" ]
 
+  license_file="./NOTICE"
+
   configs = [ ":sonic_config" ]
 
   subsystem_name = "thirdparty"

@@ -56,7 +56,7 @@ Note:If the text contains special characters, please escape them according to th
 -->
 <configuration>
     <oatconfig>
-        <licensefile>LICENSE</licensefile>
+        <licensefile>NOTICE</licensefile>
         <policylist>
             <policy name="projectPolicy" desc="Sonic audio source code">
                 <policyitem type="compatibility" name="Apache-2.0" path=".*" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Apache-2.0协议,不影响兼容性"/>
@@ -65,6 +65,7 @@ Note:If the text contains special characters, please escape them according to th
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="NOTICE" desc="copyright file"/>
                 <filteritem type="filename" name="copyright" desc="copyright file"/>
                 <filteritem type="filename" name="changelog" desc="sonic changelog file"/>
                 <filteritem type="filename" name="Main.java" desc="sonic main java file"/>
