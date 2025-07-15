@@ -2,7 +2,7 @@
     {
         "Name":"sonic",
         "License":"Apache 2.0 License",
-        "License File":"LICENSE",
+        "License File":"NOTICE",
         "Version Number":"0.2.0",
         "Owner":"guoyichen2@huawei.com",
         "Upstream URL":"https://github.com/waywardgeek/sonic",
