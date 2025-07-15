@@ -66,6 +66,7 @@ Note:If the text contains special characters, please escape them according to th
         <filefilterlist>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
                 <filteritem type="filename" name="NOTICE" desc="copyright file"/>
+                <filteritem type="filename" name="LICENSE" desc="copyright file"/>
                 <filteritem type="filename" name="copyright" desc="copyright file"/>
                 <filteritem type="filename" name="changelog" desc="sonic changelog file"/>
                 <filteritem type="filename" name="Main.java" desc="sonic main java file"/>
