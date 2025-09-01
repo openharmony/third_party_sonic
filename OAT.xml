@@ -64,14 +64,15 @@ Note:If the text contains special characters, please escape them according to th
             </policy>
         </policylist>
         <filefilterlist>
-            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility, license header policies">
                 <filteritem type="filename" name="NOTICE" desc="copyright file"/>
                 <filteritem type="filename" name="LICENSE" desc="copyright file"/>
                 <filteritem type="filename" name="copyright" desc="copyright file"/>
                 <filteritem type="filename" name="changelog" desc="sonic changelog file"/>
+                <filteritem type="filename" name="changelog.vinux" desc="sonic changelog file"/>
                 <filteritem type="filename" name="Main.java" desc="sonic main java file"/>
                 <filteritem type="filename" name="Sonic.java" desc="sonic java file"/>
-                <filteritem type="filename" name="sonic.1" desc="sonic .1 file"/>
+                <filteritem type="filename" name="sonic.1" desc="sonic.1 file"/>
                 <filteritem type="filename" name="sonic.h" desc="sonic header file"/>
                 <filteritem type="filename" name="sonic.c" desc="sonic source file"/>
                 <filteritem type="filename" name="main.c" desc="sonic main c file"/>
@@ -81,7 +82,8 @@ Note:If the text contains special characters, please escape them according to th
             <filefilter name="binaryFileTypePolicyFilter" desc="">
                 <filteritem type="filename" name="architecture_diagram_en.png" desc="architecture diagram"/>
                 <filteritem type="filename" name="architecture_diagram_zh.png" desc="architecture diagram"/>
-            </filefilter>
+                <filteritem type="filename" name="sonic.odt" desc="sonic doc"/>
+                <filteritem type="filename" name="*.wav" desc="sonic audio sample file"/>
         </filefilterlist>
     </oatconfig>
 </configuration>
