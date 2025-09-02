@@ -84,6 +84,7 @@ Note:If the text contains special characters, please escape them according to th
                 <filteritem type="filename" name="architecture_diagram_zh.png" desc="architecture diagram"/>
                 <filteritem type="filename" name="sonic.odt" desc="sonic doc"/>
                 <filteritem type="filename" name="*.wav" desc="sonic audio sample file"/>
+            </filefilter>
         </filefilterlist>
     </oatconfig>
 </configuration>
